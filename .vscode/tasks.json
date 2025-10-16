@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Load Extension in Chrome",
+			"type": "shell",
+			"command": "echo",
+			"args": [
+				"Chrome Extension готове! Щоб завантажити:\n1. Відкрийте chrome://extensions/\n2. Увімкніть 'Developer mode'\n3. Натисніть 'Load unpacked'\n4. Оберіть папку: ${workspaceFolder}\n5. Перейдіть на Google Forms для тестування"
+			],
+			"group": "build",
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "google-forms-select-to-autocomplete",
+  "version": "1.0.0",
+  "description": "Chrome розширення, яке замінює всі випадаючі списки select на списки з autocomplete в Google Forms",
+  "main": "content.js",
+  "scripts": {
+    "test": "echo \"Тестування: Завантажте розширення в Chrome для тестування\"",
+    "lint": "echo \"Перевірка коду: використовуйте Chrome DevTools Console\"",
+    "build": "echo \"Збірка: Розширення готове до завантаження\"",
+    "dev": "echo \"Розробка: Завантажте розширення в Chrome Developer mode\""
+  },
+  "keywords": [
+    "chrome-extension",
+    "google-forms",
+    "autocomplete",
+    "select",
+    "ui-enhancement"
+  ],
+  "author": "Chrome Extension Developer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/google-forms-autocomplete-extension"
+  },
+  "files": [
+    "manifest.json",
+    "content.js",
+    "styles.css",
+    "popup.html",
+    "popup.js",
+    "icons/"
+  ],
+  "engines": {
+    "chrome": ">=88"
+  },
+  "browserslist": [
+    "Chrome >= 88"
+  ]
+}

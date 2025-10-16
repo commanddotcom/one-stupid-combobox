@@ -1,0 +1,9 @@
+/* Стилі для Google Forms autocomplete елементів */
+
+.hide-important {
+    display: none !important;
+}
+
+#gforms-search-input {
+    font-weight: normal;
+}
