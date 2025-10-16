@@ -7,9 +7,9 @@
     var searchText = '';
     var searchFocus = false;
 
-    function debug(data) {
+    function debug(...data) {
         if (DEBUG_ENABLED) {
-            console.log(data)
+            console.log(...data)
         }
     }
 
@@ -269,7 +269,7 @@
 
     //  method to filter options based on searchText
     filterOptionsBySearchText() {
-        const optionsDOM = document.querySelectorAll('div[data-params] div[role="listbox"][aria-expanded="true"] > div > div');
+        const optionsDOM = document.querySelectorAll('div[data-params] div[role="listbox"][aria-expanded="true"] > div > div:not([aria-selected="true"])');
         debug('optionsDOM =>', optionsDOM);
         
         if (optionsDOM) {
