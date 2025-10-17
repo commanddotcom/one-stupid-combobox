@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Google Forms Select to Autocomplete",
-  "version": "1.0.1",
-  "description": "Замінює відкриті випадаючі списки Google Forms на зручні поля з автокомплітом для швидкого пошуку",
+  "name": "Google Forms - швидкий пошук по списку опцій",
+  "version": "1.0.2",
+  "description": "Хром додаток для швидкого пошуку по випадаючому списку у гугл формах. Для швидкого пошуку застосовуйте цифри.",
   "permissions": [
     "activeTab"
   ],
@@ -14,10 +14,6 @@
       "run_at": "document_end"
     }
   ],
-  "action": {
-    "default_popup": "popup.html",
-    "default_title": "Select to Autocomplete"
-  },
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
